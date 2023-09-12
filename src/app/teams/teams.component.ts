@@ -11,9 +11,7 @@ export class TeamsComponent {
   team1:Team = {id:0, points:0};
   team2:Team = {id:1, points:0};
   maxScore: number = 0;
-  getMaxScore(){
-    this.maxScore
-  }
+
 
   // ngOnInit(): void {
   //   this.team1.points = 0;

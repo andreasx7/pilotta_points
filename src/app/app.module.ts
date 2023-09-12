@@ -7,6 +7,7 @@ import { TeamsComponent } from './teams/teams.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { NewGameComponent } from './new-game/new-game.component';
 import { SettingsComponent } from './settings/settings.component';
+import { StartScreenComponent } from './start-screen/start-screen.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SettingsComponent } from './settings/settings.component';
     TeamsComponent,
     CalculatorComponent,
     NewGameComponent,
-    SettingsComponent
+    SettingsComponent,
+    StartScreenComponent
   ],
   imports: [
     BrowserModule,
